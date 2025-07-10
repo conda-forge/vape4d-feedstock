@@ -15,7 +15,7 @@ build:
     - export CARGO_PROFILE_RELEASE_LTO=fat
     - {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
     - cargo-bundle-licenses --format yaml --output THIRDPARTY.yml
-  number: 0
+  number: 1
   entry_points:
     - vape4d = vape4d.vape4d:standalone
 
